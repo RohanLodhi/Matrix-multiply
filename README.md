@@ -10,7 +10,7 @@ for i in range(len(a)):
                 multiplication[i][j] += a[i][k]*b[k][j]
     
 ```
-# Followings are the main reasons behind the fast speed of Numpy:
+# Following are the main reasons behind the fast speed of Numpy:
 Numpy array is a collection of similar data-types which are densely packed in memory. A Python list can have different data-types, which puts lots of extra constraints while doing computation on it.
 Numpy is able to divide a task into multiple subtasks and process them parallelly.
 Numpy functions are implemented in C. Which again makes it faster compared to Python Lists.
