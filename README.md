@@ -27,3 +27,6 @@ Numpy is around 10 times faster. Let’s plot the speed for different array size
 ![Image 3](https://miro.medium.com/max/1134/1*mw7cUXtY_YId3QHTSucyew.png)
 
 We see that dot product is even faster. Which is around 140 times fast as we move to the large array size.
+
+#References
+https://towardsdatascience.com/how-fast-numpy-really-is-e9111df44347
